@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  
+    <section class="main">
+        <form class="c-calculator" name="form">
+            <input type="text" class="textview" name="textview" />
+
+            <table class="c-calculator--keyboard">
+                <tr>
+                    <td><input type="button" class="operator" value="+"></td>
+                    <td><input type="button" class="operator" value="-"></td>
+                    <td><input type="button" class="operator" value="*"></td>
+                    <td><input type="button" class="operator" value="/"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="7"></td>
+                    <td><input type="button" value="8"></td>
+                    <td><input type="button" value="9"></td>
+                    <td rowspan="4"><input type="button" class="equal-sign operator"  value="="></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="4"></td>
+                    <td><input type="button" value="5"></td>
+                    <td><input type="button" value="6"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" value="1"></td>
+                    <td><input type="button" value="2"></td>
+                    <td><input type="button" value="3"></td>
+                </tr>
+
+                <tr>
+                        <td><input type="button" value="0"></td>
+                        <td><input type="button" class="decimal" value="."></td>
+                        <td><input type="button" class="all-clear" value="AC"></td>
+                    </tr>
+
+
+            </table>
+        </form>
+    </section>
+
+    <script src="./js/index.js"></script>
+
+</body>
+</html>
